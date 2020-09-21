@@ -32,7 +32,7 @@ now we click CA(California), User even can filter those gun violence to find out
 Download or clone this repository:
 
 ```bash
-git clone https://github.com/454400098/CRIME_RATE_WEB_APP.git
+git clone https://github.com/kushaswani/CRIME_RATE_WEB_APP.git
 ```
 The dependencies for the project can be installed using
 
