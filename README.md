@@ -6,13 +6,14 @@ User could click a state on the  USA MAP, and system would filter all incident b
 
 **Allow user to query the gun violence for a zip code within USA, and our system returns safest area in the neighborhood based on number of gun violence, renders the neighbor map with cartographic boundary for each zip code in the near by.**
 
+A working Demo could be Found [here](https://drive.google.com/file/d/1XFdgPlJ_HcQCIy3Xssixiafc_1f2NDZZ/view)
+
 
 # System Design
 
 We use gun violence dataset From http://www.gunviolencearchive.org to build an Interactive  Choropleth Map For USA. Using MongoDB for storing and querying the data, Based On Python, We use Flask to interacts with MongoDb. Front-end, we use D3.js, Dc.js and Crossfilter.js to build graph with interactivity.We use [MapShaper](https://github.com/mbloch/mapshaper)  to compress and simplify cartographic boundary dataset the use [cartoDB](https://carto.com)
  to store [cartographic boundary for every Zip Code in USA](https://www2.census.gov/geo/tiger/TIGER2014/ZCTA5/).  And renders the map with cartographic boundary for a list of Zipcode nearby the zipcode that was queried by an user.
 
-A working Demo could be Found [here](https://drive.google.com/file/d/1XFdgPlJ_HcQCIy3Xssixiafc_1f2NDZZ/view)
 
 
 
