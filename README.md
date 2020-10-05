@@ -1,8 +1,8 @@
 ﻿# USA Gun Violence Scout
 
-Crime Rate Scout is an web application that allows user to interactively explore the Gun violence happened between January 2013 and March 2018 within the Range of USA.
+Crime Rate Scout is a web application that allows user to interactively explore the gun violence incidents that happened between January 2013 and March 2018 within the USA. The gun violence incidents data is from [Gun Violence Archive's website](https://github.com/jamesqo/gun-violence-data), demograhics data is fetched through the tidycensus library in R. Got zipcode level gun violence data from latitude and longitude level data through ZIP Code Tabulation Areas shapefiles (~260k incidents).
 
-User could click a state on the  USA MAP, and system would filter all incident by that clicked state, and visualizes them with coordinated view by showing Num of Victim on that clicked state.
+User could click a state on the USA MAP, and system would filter all incident by that clicked state, and visualizes them with coordinated view by showing number of victims on that clicked state. User can also go the article/source for the incident by clicking on the location pin of the incident.
 
 **Allow user to query the gun violence for a zip code within USA, and our system returns safest area in the neighborhood based on number of gun violence, renders the neighbor map with cartographic boundary for each zip code in the near by.**
 
@@ -51,5 +51,5 @@ MIT License. See [`LICENSE.md`](LICENSE.md).
 
 # To get preprocessed dataset
 
-Please email kushaswani@gmail.com or haodong.zheng@rutgers.edu
+Please email kushaswani@gmail.com or haodong.zheng@rutgers.edu or nishant.kumar9500@gmail.com
 
