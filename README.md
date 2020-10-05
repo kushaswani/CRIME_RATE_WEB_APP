@@ -6,7 +6,7 @@ User could click a state on the  USA MAP, and system would filter all incident b
 
 **Allow user to query the gun violence for a zip code within USA, and our system returns safest area in the neighborhood based on number of gun violence, renders the neighbor map with cartographic boundary for each zip code in the near by.**
 
-A working Demo could be Found [here](https://drive.google.com/file/d/1XFdgPlJ_HcQCIy3Xssixiafc_1f2NDZZ/view)
+A working demo can be found [here](https://drive.google.com/file/d/1XFdgPlJ_HcQCIy3Xssixiafc_1f2NDZZ/view)
 
 
 # System Design
